@@ -14,11 +14,26 @@
   </div>
   <div class="navBarBox">
     <script>
-      $(document).scroll(function() {
-        $('.navBarBox').css("background-color", "yellow");
+      $(window).scroll(function(event) {
+        var scroll = $(window).scrollTop();
+        if (scroll > 150) {
+          $(".navBarBox").css("position", "fixed");
+        } else {
+          $(".navBarBox").css("position", "relative");
+        }
       });
-    </script>
+    </script>   <!-- Script for moving the NavBar -->
+    <navBarTextHome>Home</navBarTextHome>
+    <navBarTextGalery>Galery</navBarTextGalery>
+    <navBarTextDownload>Download</navBarTextDownload>
+    <navBarTextInfo>Info</navBarTextInfo>
   </div>
+  <div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>  <!-- Lines to test -->
 </body>
 
 </html>

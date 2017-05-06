@@ -8,19 +8,58 @@ WebsiteTitle {
 }
 
 .navBarBox {
-  background-color: lightblue;
+  background-color: blue;
   width: 100%;
-  height: 400px;
+  height: 80px;
   top: 0%;
   left: 0%;
-  position: absolute;
 }
 
 .headlineBox {
-  position: fixed;
+  position: relative;
   top: 0px;
   width: 100%;
   height: 150px;
   left: 0px;
   background-color: lightblue;
+}
+
+navBarTextHome {
+  font-size: 40px;
+  font-family: "Arial";
+  color: white;
+  position: relative;
+  left: 140px;
+  top: 15px;
+  cursor: pointer;
+}
+
+navBarTextGalery {
+  font-size: 40px;
+  font-family: "Arial";
+  color: white;
+  position: relative;
+  left: 170px;
+  top: 15px;
+  cursor: pointer;
+}
+
+navBarTextDownload {
+  font-size: 40px;
+  font-family: "Arial";
+  color: white;
+  position: relative;
+  left: 210px;
+  top: 15px;
+  cursor: pointer;
+}
+
+navBarTextInfo {
+  font-size: 40px;
+  font-family: "Arial";
+  color: white;
+  position: relative;
+  left: 260px;
+  top: 15px;
+  cursor: pointer;
 }
